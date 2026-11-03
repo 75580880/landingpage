@@ -1,0 +1,77 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  padding: 40px 20px;
+  overflow-x: hidden
+}
+
+.contenedor-galeria {
+  display: flex;  
+  flex-direction: row;          
+  justify-content: center;
+  align-items: stretch;        
+  gap: 20px;     
+  max-width: 1000px;
+  margin: 2px auto;
+}
+
+
+.tarjeta-producto {
+  padding: 24px;               
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 19px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  align-items: center;
+  text-align: center;
+  
+}
+
+.titulo-producto {
+  font-size: 1.25rem;
+  color: #333333;
+  margin-bottom: 12px;
+}
+
+.precio-producto {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #2b7a78;
+  margin-bottom: 16px;
+}
+
+.boton-comprar {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.boton-comprar:hover {
+  background-color: #4bcc10;
+}
+section {
+  background: rgb(238, 187, 112);
+  padding: 20px;
+  margin-bottom: 5px;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  margin-top: 100px;
+  margin-bottom: 1.5rem;
+  box-sizing: border-box;
+ }
+  footer {
+  text-align: center;
+  padding: 1.5rem;
+  color: rgb(8, 7, 7);
+  margin-top: 2rem;
+  }
