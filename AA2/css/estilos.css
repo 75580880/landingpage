@@ -1,0 +1,274 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px 10px;
+  background-image: url('https://img.magnific.com/vector-gratis/vector-diseno-fondo-patron-impresion-pata-animal-salvaje-divertido_1017-47618.jpg?semt=ais_hybrid&w=740&q=80'); 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  background-size: cover; 
+  background-attachment: fixed;   
+  margin: 0
+}
+
+.titulo {
+  background-image: url(../index/baner-gato.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  image-rendering: optimizeQuality;
+  color: #050703;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 28px 7px;
+  text-align: center;
+  border-radius: 120px;
+  max-width: 2000px;
+  margin: 0 auto 50px auto;
+  box-shadow: 0px 5px 6px rgba(6, 15, 15, 0.288);
+  
+  
+}
+.titulo h1 {
+  font-size: 6rem;
+  margin-top: 2px;
+  margin-bottom: 4px;
+  
+}
+.titulo p {
+  font-size: 40px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.ropa-clasica {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6EiLS2fSnN6FYeKQllNvwoAGVUQlX8AbmWKQY0P8shviaavyScAypQsqh&s=10);
+  
+  background-position: center;
+  background-size: cover;
+  image-rendering: optimizeQuality;
+  color: #050703;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1px 7px;
+  text-align: center;
+  border-radius: 12px;
+  max-width: 2000px;
+  margin: 0 auto 50px auto;
+  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.1);
+  border-color: #03070a; 
+
+}
+
+.ropa-de-hallowen {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSom4X6INFXzu_ZPrxzOKCHyWjQwr-BO8MQlKftibdB-Q&s=10);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  image-rendering: optimizeQuality;
+  color: #f3f3f2;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1px 7px;
+  text-align: center;
+  border-radius: 12px;
+  max-width: 2000px;
+  margin: 0 auto 50px auto;
+  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.1);
+  border-color: #03070a; 
+  -webkit-text-stroke: 2px #03070a;
+}
+
+.ropa-navideña {
+ background-image: url(https://previews.123rf.com/images/perig76/perig761612/perig76161200059/68781824-christmas-white-background-banner-view-with-tree-gift-and-decoration.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  image-rendering: optimizeQuality;
+  color: #06ff12;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1px 7px;
+  text-align: center;
+  border-radius: 12px;
+  max-width: 2000px;
+  margin: 0 auto 50px auto;
+  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.1);
+  border-color: #03070a; 
+  -webkit-text-stroke: 2px #03070a;
+}
+
+.contenedor-galeria-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.contenedor-galeria-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.contenedor-galeria-3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.contenedor-galeria-4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2px;
+  padding: 2px;
+}
+.contenedor-galeria-5 {
+  animation: latido infinite 2s;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.tarjeta-contactanos {
+  width: 28%;
+  background-color: #85d9e4;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.tarjeta-producto {
+  width: 28%;
+  background-color: #85d9e4;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.tarjeta-producto:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 70px rgba(7, 69, 241, 0.534);
+}
+
+.contenedor-foto-producto {
+  width: 100%;
+  height: 200px;
+  background-color: #fcfcfc;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.contenedor-foto-producto img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; 
+}
+
+.titulo-producto {
+  font-size: 1.2rem;
+  color: #2d2d2e;
+  margin-top: 0;
+  margin-bottom: 8px; 
+}
+
+.precio-producto {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #5008f8;
+  margin-top: 0;
+  margin-bottom: 15px; 
+}
+
+.menu-navegacion {
+  display: flex;                
+  justify-content: center;      
+  gap: 10px;                    
+  margin-top: 4px;     
+  margin-bottom: 5px;        
+  border-top: 1px solid rgba(255, 255, 255, 0.1); 
+  padding-top: 20px;
+}
+
+.btn-nav{
+  background-color: rgba(212, 24, 24, 0.616); 
+  color: #f2f7f3;
+  text-align: center;
+  text-decoration: none;      
+  padding: 10px 12px;          
+  border-radius: 20px;        
+  font-size: 1rem;
+  font-weight: bolder;
+  transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+  .btn{
+  background-color: rgba(14, 233, 105, 0.616); 
+  color: #f2f7f3;
+  text-decoration: none;   
+  padding: 10px 12px;          
+  border-radius: 14px;        
+  font-size: 1rem;
+  font-weight: bolder;
+  transition: background-color 0.3s ease, transform 0.2s ease; 
+  text-align: center;
+  align-items: center;
+}
+.btn-nav:hover {
+  background-color: #007bff;  
+  transform: translateY(-2px); 
+}
+.btn:hover {
+  background-color: #13be3e;  
+  transform: translateY(-2px); 
+}
+@keyframes latido {
+    0%{transform: scale(1);}
+    50% {transform: scale(1.01);}
+  100% {transform: scale(1);}
+}
+
+#contacto {
+  background: rgb(98, 233, 243);
+  padding: 40px 20px;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  margin-top: 80px;
+  margin-bottom: 1.5rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  color: rgb(8, 7, 7);
+  margin-top: 2rem;
+}
+
+
+@media (max-width: 667px) {
+  .fila-zigzag {
+    flex-direction: column;
+  }
+  .tarjeta-producto, 
+  .bloque-imagen-lateral {
+    width: 100%;
+    min-width: unset;
+    height: 300px;
+  }
+  .tarjeta-producto {
+    height: auto;
+  }
+}
